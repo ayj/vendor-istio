@@ -22,7 +22,7 @@
     "api",
     "testhelpers"
   ]
-  revision = "feb69363fff010ea48e1dacd38ca859528cfa0d4"
+  revision = "35aef47bc6c01933164a1d5082c8fe87aedb1f1c"
 
 [[projects]]
   name = "github.com/Azure/go-autorest"
@@ -44,20 +44,20 @@
 [[projects]]
   name = "github.com/DataDog/datadog-go"
   packages = ["statsd"]
-  revision = "9487d3a9d3be5bf3cf60b86ae810b97926964515"
-  version = "2.0.0"
+  revision = "e67964b4021ad3a334e748e8811eb3cd6becbc6e"
+  version = "2.1.0"
 
 [[projects]]
   name = "github.com/Masterminds/semver"
   packages = ["."]
-  revision = "15d8430ab86497c5c0da827b748823945e1cf1e1"
-  version = "v1.4.0"
+  revision = "c7af12943936e8c39859482e61f0574c2fd7fc75"
+  version = "v1.4.2"
 
 [[projects]]
   name = "github.com/Masterminds/sprig"
   packages = ["."]
-  revision = "b217b9c388de2cacde4354c536e520c52c055563"
-  version = "v2.14.1"
+  revision = "6b2a58267f6a8b1dc8e2eb5519b984008fa85e8c"
+  version = "v2.15.0"
 
 [[projects]]
   name = "github.com/PuerkitoBio/purell"
@@ -143,8 +143,8 @@
     "private/protocol/xml/xmlutil",
     "service/sts"
   ]
-  revision = "4b5324816e154564ef4e490842c2e40560971f75"
-  version = "v1.13.24"
+  revision = "9b0098a71f6d4d473a26ec8ad3c2feaac6eb1da6"
+  version = "v1.13.32"
 
 [[projects]]
   branch = "master"
@@ -182,7 +182,7 @@
   branch = "master"
   name = "github.com/circonus-labs/circonusllhist"
   packages = ["."]
-  revision = "1e65893c445875524c5610f2a58aef24e30ef98a"
+  revision = "8eb9a7a20126e4d472b96f225c97de79a275d31e"
 
 [[projects]]
   branch = "master"
@@ -268,7 +268,7 @@
     "envoy/type",
     "pkg/util"
   ]
-  revision = "9fdf4bd79736a87c78b3d48b7baa84ea24be1c1a"
+  revision = "469a90e97a000f23f2ab0bf494cdc8e1480a3dfa"
 
 [[projects]]
   name = "github.com/fluent/fluent-logger-golang"
@@ -294,8 +294,8 @@
 [[projects]]
   name = "github.com/go-ini/ini"
   packages = ["."]
-  revision = "6333e38ac20b8949a8dd68baa3650f4dee8f39f0"
-  version = "v1.33.0"
+  revision = "ace140f73450505f33e8b8418216792275ae82a7"
+  version = "v1.35.0"
 
 [[projects]]
   branch = "master"
@@ -318,7 +318,7 @@
   branch = "master"
   name = "github.com/go-openapi/swag"
   packages = ["."]
-  revision = "ceb469cb0fdf2d792f28d771bc05da6c606f55e5"
+  revision = "811b1089cde9dad18d4d0c2d09fbdbf28dbd27a5"
 
 [[projects]]
   name = "github.com/go-redis/redis"
@@ -351,13 +351,13 @@
   version = "v0.2.3"
 
 [[projects]]
-  branch = "master"
   name = "github.com/gogo/googleapis"
   packages = [
     "google/api",
     "google/rpc"
   ]
-  revision = "0cd9801be74a10d5ac39d69626eac8255ffcd502"
+  revision = "08a7655d27152912db7aaf4f983275eaf8d128ef"
+  version = "v1.0.0"
 
 [[projects]]
   name = "github.com/gogo/protobuf"
@@ -402,6 +402,12 @@
   ]
   revision = "925541529c1fa6821df4e44ce2723319eb2be768"
   version = "v1.0.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/golang/snappy"
+  packages = ["."]
+  revision = "553a641470496b2327abcac10b36396bd98e45c9"
 
 [[projects]]
   branch = "master"
@@ -467,7 +473,7 @@
     "openstack/utils",
     "pagination"
   ]
-  revision = "2daf3049f2a9913e6e5bf54926fd90efb1f9a0f0"
+  revision = "2aaf13981a1dd8dfe85a22a4aea957e90ff8bddd"
 
 [[projects]]
   name = "github.com/gorilla/context"
@@ -500,7 +506,7 @@
   branch = "master"
   name = "github.com/grpc-ecosystem/go-grpc-middleware"
   packages = ["."]
-  revision = "aed189ae50cf2ee326c1de8c083f3187e574e0d8"
+  revision = "b9ed6aed6cf9de7330c7c8e81d3d8e49086539e8"
 
 [[projects]]
   name = "github.com/grpc-ecosystem/go-grpc-prometheus"
@@ -517,8 +523,8 @@
 [[projects]]
   name = "github.com/hashicorp/consul"
   packages = ["api"]
-  revision = "9a494b5fb9c86180a5702e29c485df1507a47198"
-  version = "v1.0.6"
+  revision = "fb848fc48818f58690db09d14640513aa6bf3c02"
+  version = "v1.0.7"
 
 [[projects]]
   branch = "master"
@@ -560,10 +566,38 @@
   revision = "0fb14efe8c47ae851c0034ed7a448854d3d34cf3"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/hashicorp/hcl"
+  packages = [
+    ".",
+    "hcl/ast",
+    "hcl/parser",
+    "hcl/scanner",
+    "hcl/strconv",
+    "hcl/token",
+    "json/parser",
+    "json/scanner",
+    "json/token"
+  ]
+  revision = "ef8a98b0bbce4a65b5aa4c368430a80ddc533168"
+
+[[projects]]
   name = "github.com/hashicorp/serf"
   packages = ["coordinate"]
   revision = "d6574a5bb1226678d7010325fb6c985db20ee458"
   version = "v0.8.1"
+
+[[projects]]
+  name = "github.com/hashicorp/vault"
+  packages = [
+    "api",
+    "helper/compressutil",
+    "helper/jsonutil",
+    "helper/parseutil",
+    "helper/strutil"
+  ]
+  revision = "5dd7f25f5c4b541f2da62d70075b6f82771a650d"
+  version = "v0.10.0"
 
 [[projects]]
   name = "github.com/howeyc/fsnotify"
@@ -586,8 +620,8 @@
 [[projects]]
   name = "github.com/imdario/mergo"
   packages = ["."]
-  revision = "163f41321a19dd09362d4c63cc2489db2015f1f4"
-  version = "0.3.2"
+  revision = "9d5f1277e9a8ed20c3684bda8fde67c05628518c"
+  version = "v0.3.4"
 
 [[projects]]
   name = "github.com/inconshreveable/mousetrap"
@@ -645,6 +679,12 @@
   name = "github.com/mitchellh/go-homedir"
   packages = ["."]
   revision = "b8bc1bf767474819792c23f32d8286a45736f1c6"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/mitchellh/mapstructure"
+  packages = ["."]
+  revision = "00c29f56e2386353d58c599509e8dc3801b0d716"
 
 [[projects]]
   name = "github.com/modern-go/concurrent"
@@ -717,7 +757,7 @@
   branch = "master"
   name = "github.com/openshift/api"
   packages = ["apps/v1"]
-  revision = "dca24d1902afee9d2be02425a2d7c9f910063631"
+  revision = "80a1e2bf16952088360b492c175703755deea8d2"
 
 [[projects]]
   name = "github.com/opentracing/opentracing-go"
@@ -800,7 +840,7 @@
     "log",
     "model"
   ]
-  revision = "38c53a9f4bfcd932d1b00bfc65e256a7fba6b37a"
+  revision = "d0f7cd64bda49e08b22ae8a730aa57aa0db125d6"
 
 [[projects]]
   branch = "master"
@@ -811,7 +851,7 @@
     "nfs",
     "xfs"
   ]
-  revision = "780932d4fbbe0e69b84c34c20f5c8d0981e109ea"
+  revision = "8b1c2da0d56deffdbb9e48d4414b4e674bd8083e"
 
 [[projects]]
   branch = "master"
@@ -823,7 +863,7 @@
   branch = "master"
   name = "github.com/rcrowley/go-metrics"
   packages = ["."]
-  revision = "8732c616f52954686704c8645fe1a9d59e9df7c1"
+  revision = "d932a24a8ccb8fcadc993e5c6c58f93dac168294"
 
 [[projects]]
   name = "github.com/russross/blackfriday"
@@ -832,10 +872,22 @@
   version = "v1.5.1"
 
 [[projects]]
+  name = "github.com/ryanuber/go-glob"
+  packages = ["."]
+  revision = "572520ed46dbddaed19ea3d9541bdd0494163693"
+  version = "v0.1"
+
+[[projects]]
   name = "github.com/satori/go.uuid"
   packages = ["."]
   revision = "f58768cc1a7a7e77a3bd49e98cdd21419399b6a3"
   version = "v1.2.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/sethgrid/pester"
+  packages = ["."]
+  revision = "ed9870dad3170c0b25ab9b11830cc57c3a7798fb"
 
 [[projects]]
   branch = "master"
@@ -861,8 +913,8 @@
 [[projects]]
   name = "github.com/spf13/pflag"
   packages = ["."]
-  revision = "e57e3eeb33f795204c1ca35f56c44f83227c6e66"
-  version = "v1.0.0"
+  revision = "583c0c0531f06d5278b7d917446061adc344b5cd"
+  version = "v1.0.1"
 
 [[projects]]
   name = "github.com/square/certstrap"
@@ -944,10 +996,11 @@
     "stats/view",
     "tag",
     "trace",
+    "trace/internal",
     "trace/propagation"
   ]
-  revision = "6e3f034057826b530038d93267906ec3c012183f"
-  version = "v0.6.0"
+  revision = "0095aec66ae14801c6711210f6f0716411cefdd3"
+  version = "v0.8.0"
 
 [[projects]]
   name = "go.uber.org/atomic"
@@ -985,7 +1038,7 @@
     "scrypt",
     "ssh/terminal"
   ]
-  revision = "88942b9c40a4c9d203b82b3731787b672d6e809b"
+  revision = "d6449816ce06963d9d136eee5a56fca5b0616e7e"
 
 [[projects]]
   branch = "master"
@@ -1003,7 +1056,7 @@
     "lex/httplex",
     "trace"
   ]
-  revision = "6078986fec03a1dcc236c34816c71b0e05018fda"
+  revision = "61147c48b25b599e5b561d2e9c4f3e1ef489ca41"
 
 [[projects]]
   branch = "master"
@@ -1015,7 +1068,7 @@
     "jws",
     "jwt"
   ]
-  revision = "fdc9e635145ae97e6c2cb777c48305600cf515cb"
+  revision = "921ae394b9430ed4fb549668d7b087601bd60a81"
 
 [[projects]]
   branch = "master"
@@ -1032,7 +1085,7 @@
     "windows/registry",
     "windows/svc/eventlog"
   ]
-  revision = "378d26f46672a356c46195c28f61bdb4c0a781dd"
+  revision = "f6f352972f061230a99fbf49d1eb8073ebdb36cb"
 
 [[projects]]
   name = "golang.org/x/text"
@@ -1072,7 +1125,7 @@
   branch = "master"
   name = "golang.org/x/time"
   packages = ["rate"]
-  revision = "26559e0f760e39c24d730d3224364aef164ee23f"
+  revision = "fbb02b2291d28baffd63558aa44b4b56f178d650"
 
 [[projects]]
   branch = "master"
@@ -1081,7 +1134,7 @@
     "go/ast/astutil",
     "imports"
   ]
-  revision = "77106db15f689a60e7d4e085d967ac557b918fb2"
+  revision = "d11f6ec946130207fd66b479a9a6def585b5110b"
 
 [[projects]]
   branch = "master"
@@ -1100,7 +1153,7 @@
     "transport/grpc",
     "transport/http"
   ]
-  revision = "dbbc13f71100fa6ece308335445fca6bb0dd5c2f"
+  revision = "fca24fcb41126b846105a93fb9e30f416bdd55ce"
 
 [[projects]]
   name = "google.golang.org/appengine"
@@ -1136,7 +1189,7 @@
     "googleapis/rpc/status",
     "protobuf/field_mask"
   ]
-  revision = "ab0870e398d5dd054b868c0db1481ab029b9a9f2"
+  revision = "7fd901a49ba6a7f87732eb344f6e3c5b19d1b200"
 
 [[projects]]
   name = "google.golang.org/grpc"
@@ -1171,8 +1224,8 @@
     "tap",
     "transport"
   ]
-  revision = "1e2570b1b19ade82d8dbb31bba4e65e9f9ef5b34"
-  version = "v1.11.1"
+  revision = "d11072e7ca9811b1100b80ca0269ac831f06d024"
+  version = "v1.11.3"
 
 [[projects]]
   name = "gopkg.in/alecthomas/kingpin.v2"
@@ -1230,7 +1283,7 @@
     "rbac/v1alpha1",
     "routing/v1alpha1"
   ]
-  revision = "3388c6e22df091cbacf63f012aef56b3120bf869"
+  revision = "6236f62006b304f999e4647cc302eaa575d852d3"
 
 [[projects]]
   name = "istio.io/fortio"
@@ -1296,7 +1349,7 @@
     "pkg/client/clientset/clientset/typed/apiextensions/v1beta1",
     "pkg/features"
   ]
-  revision = "c958999085e1db202fb83549b3c0ff8abd3f5b94"
+  revision = "654501c0b08276b765725d8374045d0b3f0f9d46"
 
 [[projects]]
   name = "k8s.io/apimachinery"
@@ -1359,7 +1412,7 @@
     "pkg/features",
     "pkg/util/feature"
   ]
-  revision = "f4a9d31325865f18b8023622a564578f079d582b"
+  revision = "13a30195c0968f62ee9e534b8e18c196807236f0"
 
 [[projects]]
   branch = "release-6.0"
@@ -1368,7 +1421,6 @@
     "discovery",
     "discovery/fake",
     "dynamic",
-    "dynamic/fake",
     "kubernetes",
     "kubernetes/fake",
     "kubernetes/scheme",
@@ -1507,7 +1559,7 @@
   branch = "master"
   name = "k8s.io/kube-openapi"
   packages = ["pkg/common"]
-  revision = "50ae88d24ede7b8bad68e23c805b5d3da5c8abaf"
+  revision = "f442ecb314a3679150c272e2b9713d8deed5955d"
 
 [[projects]]
   branch = "release-1.9"
@@ -1522,11 +1574,11 @@
     "pkg/util/parsers",
     "pkg/util/pointer"
   ]
-  revision = "f947188850f4e8087459921129e8dce9b35325f1"
+  revision = "71f69c0b83442baba9399923132a883a6fb01e64"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "74eb13989ef78633e4a1468009366dfcdd1a39ed7792329ba88177441bdb45a6"
+  inputs-digest = "3ff4f8180324f86972dab436fdcae8372a265a26e5b7f365d0120a4693aa5b2e"
   solver-name = "gps-cdcl"
   solver-version = 1
