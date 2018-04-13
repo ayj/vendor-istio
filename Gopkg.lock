@@ -1448,6 +1448,7 @@
     "tools/leaderelection/resourcelock",
     "tools/metrics",
     "tools/pager",
+    "tools/portforward",
     "tools/record",
     "tools/reference",
     "tools/remotecommand",
@@ -1527,6 +1528,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "74eb13989ef78633e4a1468009366dfcdd1a39ed7792329ba88177441bdb45a6"
+  inputs-digest = "dc1b27e47e5d1e7ff9fc563f6020e434eda89384e7ece73d7984e889e9fc3c41"
   solver-name = "gps-cdcl"
   solver-version = 1
