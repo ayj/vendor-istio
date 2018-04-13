@@ -1230,7 +1230,7 @@
     "rbac/v1alpha1",
     "routing/v1alpha1"
   ]
-  revision = "3388c6e22df091cbacf63f012aef56b3120bf869"
+  revision = "6236f62006b304f999e4647cc302eaa575d852d3"
 
 [[projects]]
   name = "istio.io/fortio"
@@ -1368,7 +1368,6 @@
     "discovery",
     "discovery/fake",
     "dynamic",
-    "dynamic/fake",
     "kubernetes",
     "kubernetes/fake",
     "kubernetes/scheme",
@@ -1527,6 +1526,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "74eb13989ef78633e4a1468009366dfcdd1a39ed7792329ba88177441bdb45a6"
+  inputs-digest = "bdf3a354288a76773beafeebbd866a3a0c437df474da0d8551afca238e630c08"
   solver-name = "gps-cdcl"
   solver-version = 1
